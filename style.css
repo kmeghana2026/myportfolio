@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h4 {
+    padding: 10px;
+    background-color: rgb(189, 182, 182);
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Skills Section */
+.skills-list {
+    padding-left: 40px;
+}
+
+.skills-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.skills-list li i {
+    margin-right: 10px;
+}
+
+/* Educational Details */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+
+/* Projects Section */
+.projects-list {
+    padding-left: 40px;
+}
+
+.projects-list li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+form {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+}   
+.developer-text {
+    font-size: 2rem; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: make the text bold */
+    text-align: center; /* Optional: center align the text */
+}
